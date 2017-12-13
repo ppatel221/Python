@@ -53,6 +53,8 @@ def EncryptSHA(i_file):
 
 	return;
 
+# a function to read the file and display the content of it	
+
 def Read_file(i_file):
 
 	print ("\nfile content\n");
