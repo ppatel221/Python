@@ -3,11 +3,8 @@ import os.path
 import hashlib
 
 
-# file_path = 'tmp/temp/1.txt'
-# file_name = os.path.basename(file_path)
-# fname = os.path.splitext(file_name)[0]
 
-#a function that returns the file path.
+#function that returns the file path.
 
 def DisplayFilePath(i_file):
 	
@@ -15,13 +12,13 @@ def DisplayFilePath(i_file):
 
 	return;
 
-# a function that returns the file extension and the file name.
+#function that returns the file extension and the file name.
 
 def Displayfile_Ext(i_file):
 	print ("file name and extension: ",os.path.basename(i_file))
 	return;
 
-# a function the size of the file.
+#function the size of the file.
 
 
 def Displayfile_size(i_file):
@@ -29,7 +26,7 @@ def Displayfile_size(i_file):
 	print("file size:  ",os.path.getsize(i_file))
 	return;
 
-# a function to encrypt the content of a file using MD5
+#function to encrypt the content of a file using MD5
 
 def EncryptMD5(i_file):
 
@@ -40,7 +37,7 @@ def EncryptMD5(i_file):
 
  return;
 
-# a function to encrypt the content of a file using SHA256
+#function to encrypt the content of a file using SHA256
 
 
 def EncryptSHA(i_file):
@@ -53,7 +50,7 @@ def EncryptSHA(i_file):
 
 	return;
 
-# a function to read the file and display the content of it	
+#function to read the file and display the content of it	
 
 def Read_file(i_file):
 
