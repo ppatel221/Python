@@ -5,4 +5,4 @@
 install:
     - pip install unittest2
   script:
-    - Library.py
+    - python Library.py
