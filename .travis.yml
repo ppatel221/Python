@@ -1,5 +1,7 @@
  language: python
 python:
 	-"3.0"
+install:
+	- pip install pipreqs
   script:
     - python Library.py
