@@ -1,5 +1,5 @@
  language: python
-install:
-    - pip install unittest2
+python:
+	-"3.0"
   script:
     - python Library.py
