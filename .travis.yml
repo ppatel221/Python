@@ -1,7 +1,9 @@
- language: python
+language: python
 python:
-	-"3.0"
-install:
-	- pip install pipreqs
-  script:
-    - python Library.py
+  - "2.6"
+  - "2.7"
+  - "3.2"
+# command to install dependencies
+install: "pip install -r requirements.txt --use-mirrors"
+# command to run tests
+script: nosetests
