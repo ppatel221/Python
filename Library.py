@@ -64,7 +64,7 @@ def Read_file(i_file):
 	
 ##--- Getting file information ---##
 
-i_file = input("Enter your file path?\t");
+i_file = "1.txt";
 
 print("---------------------------------------------------")
 
@@ -79,4 +79,3 @@ EncryptMD5(i_file);
 EncryptSHA(i_file);
 
 Read_file(i_file);
-
