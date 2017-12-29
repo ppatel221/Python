@@ -1,6 +1,6 @@
 # Python
 
-The Library.py file contains functions that will help you to dof the follwoing :
+The [Library.py](Python/Library.py) file contains functions that will help you to dof the follwoing :
 
 * Read from file and display the content
 * A function that gives you the size of the file
