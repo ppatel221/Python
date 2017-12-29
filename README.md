@@ -14,3 +14,19 @@ The Library.py file contains functions that will help you to dof the follwoing :
 
 * A function that returns the path of the file .
 
+# Code example 
+
+The is an example for a function that reads from a file and diplays the content .
+
+```
+def Read_file(i_file):
+
+	print ("\nfile content\n");
+
+	J=open(i_file, 'r').read();
+
+	print (J);	
+
+	return;
+```
+
